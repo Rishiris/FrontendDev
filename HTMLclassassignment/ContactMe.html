@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Form</title>
+</head>
+<body>
+    <p>
+        <h1>Contact Me</h1>
+    </p>
+    <p>
+        I'd really like to hear from you!
+    </p>
+    <form action="">
+        <fieldset class="Personal">
+            <legend>Personal information</legend>
+            <p>
+                <label for="Name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name"
+                required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="abc@gmail.com"
+                required>
+            </p>
+            <p>
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" placeholder="Your secret" required>
+            </p>
+            <p>
+                <label for="Number">Mobile No.:</label>
+                <input type="tel" id="Number" placeholder="1234567890" required> 
+            </p>
+            <p>
+                <label for="Decade">Favourite Decade:</label>
+                <input type="number" min="1990" max="2023" placeholder="YYYY">
+            </p>
+            <p>
+                <label for="beverage">Favourite Beverages:</label>
+                <select name="FavCoffee" id="FavCoffee">
+                    <optgroup label="Coffee">
+                    <option value="latte">Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="cortado">Cortado</option>
+                    <option value="americano">Americano</option>
+                    <option value="just Coffee">Just Coffee</option>
+                </optgroup>
+                <optgroup label="Chai">
+                    <option value="justchai">Just Chai </option>
+                    <option value="cuttingchai">cutting Chai</option>
+                    <option value="tandoorichai">Tandoori Chai</option>
+                    <option value="kulhadchai">Kulhad Chai</option>
+                </optgroup>
+                </select>
+            </p>
+        </fieldset><br>
+        <fieldset class="favfood">
+            <legend>What is your favourite food?</legend>
+            <p>
+                <input type="radio" id="tacos">
+                <label for="tacos">Tacos</label>
+            </p>
+            <p>
+                <input type="radio" id="pizza">
+                <label for="pizza">Pizza</label>
+            </p>    
+             <p>
+                <input type="radio" id="other">
+                <label for="other">Other</label>
+            </p>                                    
+        </fieldset><br>
+        <fieldset class="favpets">
+            <legend>Do you have pets?</legend>
+            <p>
+                <input type="checkbox" name="dog" id="dog">
+                <label for="dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="cat" id="cat">
+                <label for="cat">Cat</label>
+            </p> 
+            <p>
+                <input type="checkbox" name="fish" id="fish">
+                <label for="fish">Fish</label>
+            </p>                     
+            <p>
+                <input type="checkbox" name="more" id="more">
+                <label for="more">Other</label>
+            </p>
+        </fieldset><br>
+        <fieldset class="note">
+            <legend>Send Me A Note</legend>
+             Your Message: <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea><br>
+            <button type="reset">Reset Message</button>
+        </fieldset><br>
+        <button type="submit">Submit</button>
+        <button type="submit">Post</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
