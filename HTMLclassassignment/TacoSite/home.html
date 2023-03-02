@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco.com</title>
+    <style>
+     .button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: aqua;
+            }
+      .button:hover{
+        background-image:url(button.png);
+    background-position: center; 
+     }
+     body{
+        background-image: url(background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+     }
+     h1{
+        font-size: xx-large;
+     }
+    </style>
+</head>
+<body>
+    <section id="Home">
+       <header>
+        <h1>Welcome to The Little taco Shop</h1>
+       </header>
+            <nav class="navigation">
+                <ul>
+                    <a href="#About"> <li>About LTS</li></a>
+                    <a href="#Menu"><li>Our Menu</li></a>
+                    <a href="#storehours"><li>Store Hours</li></a>
+                    <a href="#Contact"><li>Contact Us</li></a>
+                    <a href="#Location"><li>Our Location</li></a>
+                </ul>
+            </nav>
+    <figure class="tacoanddrink">
+        <img src="TacoAndDrink.jpg" alt="taco and drink img" width="550px" height="350px"> <br>
+        Taco and  a Drink
+    </figure>
+    </section> <hr>
+    <section id="About">
+    <h1>About Little Taco Shop</h1>
+    <h5> It's Original, It's Tasty, It's Wichita, the Little Taco Shop</h5>
+    <P>
+        Little Taco Shop was founded in 2022. Our shop was built from a <b>love of tacos 🌮🌮🌮</b>. We hope our shop adds a unique and <br> interesting place to our little town.
+        The taste everyone want's found at the Little Taco Shop --and only at the Taco Shop - - the <br> fun and easy-going traditional Mexican taste-de- light of Wichita. Every Taco Shop offers a pleasant atmosphere where friends <br> and families can relax while enjoying mouthwatering Mexican food at very affordable prices. 
+        Naturally, the Little Taco Shops <br> feature quick, convenient drive-through when life gets hectic, or your job or school necessitates eating on the go. 
+        But always,<br> there is great fun and a terrific taste experience with every fresh, prepared-to-order meal at any of Wichita's Taco Shops.
+    </P>
+    </section><br><hr>
+    <section id="Menu">
+    <h1>Our Menu</h1>
+    <table border="2">
+        <caption>OUR TACOS</caption>
+        <thead>
+            <tr>
+            <th>Tacos</th>
+            <th>Qty</th>
+            <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Crunchy</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>$1.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$2.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$3.25</td>
+            </tr>
+            <tr>
+                <th rowspan="4">Soft</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>$2.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$3.50</td>
+            </tr><tr>
+                <td>3</td>
+                <td>$4.50</td>
+            </tr>
+                <tr>
+                    <td colspan="3">Chips & Salsa  $2</td>
+                </tr>
+        </tbody>
+    </table><hr>
+    </section>
+    <footer>
+        Copyright<span>&copy;</span> The Little Taco Shop
+    </footer><br>
+    <section id="storehours">
+       <h1>Little Taco Shop Hours</h1>
+       <nav>
+        <ul>
+            <a href="#Home">
+                <li>Home</li>
+            </a>
+            <a href="#About">
+                <li>About LTS</li>
+            </a>
+            <a href="#Menu">
+                <li>Our Menu</li>
+            </a>
+            <a href="#Contact">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+       </nav> 
+       <figure> 
+       <img src="tacosWorkers.jpg" alt="tacos workers img" height="350px" width="550px">
+       <br>Next level Mexican food and warm hospitality</figure><hr>
+       <p>
+        <h4>We are open 7 days a week!</h4>
+       </p>
+       <p>
+        Sunday-Thursday <br>
+        11am-9pm <br><br>
+        Friday-Saturday <br>
+        11am-11pm
+       </p><hr>
+       Copyright <span>&copy;</span> The Little Taco Shop
+    </section>
+    <section id="Contact" style="background-image: url();">
+        <h1>Contact Us</h1>
+       <nav>
+        <ul>
+            <a href="#Home">
+                <li>Home</li>
+            </a>
+            <a href="#About">
+                <li>About LTS</li>
+            </a>
+            <a href="#Menu">
+                <li>Our Menu</li>
+            </a>
+            <a href="#storehours">
+                <li>Store Hours</li>
+            </a>
+        </ul>
+       </nav> 
+       <figure class="font">
+       <img src="talk.png" alt="" height="40"></figure>
+        <p>
+            We love hearing from our Little's fans. Compliments? Comments? More compliments?  We've got you.</br>
+Feel free to call 888-510-8226 or use the form below to send us a message.
+        </p>
+    </section>
+    <fieldset>
+        <legend>We want to hear from you</legend>
+        <label for="name">Name:</label> <br>
+        <input type="text" class="firstname" placeholder="First name" required>
+        <input type="text" class="lastname" placeholder="Last name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" class="email" placeholder="abc@gmail.com" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" class="phone" placeholder="##########" required><br><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder=""></textarea><br>
+        <input type="button" value="submit">
+        <input type="button" value="reset">
+    </fieldset><br><hr>
+    Copyright <span>&copy;</span> The Little Taco Shop         <br>
+    <figure>
+        <figcaption id="Location"><h1>Our Location</h1></figcaption>
+        <img src="location.jpg" alt=""><br>
+        <p><h4>427 N. Hillside St.<br>
+        Call: (316) 358-9999</h4></p>
+        <a href="https://www.google.com/maps/place/427+N+Hillside+St,+Wichita,+KS+67214,+USA/@37.6926141,-97.299455,18z/data=!3m1!4b1!4m6!3m5!1s0x87bae30dbb95e77b:0x9297effe26507538!8m2!3d37.6926141!4d-97.299455!16s%2Fg%2F11bw40t806" target="_blank">
+            <button class="button">Direction</button></a><hr>
+             Copyright <span>&copy;</span> The Little Taco Shop
+    </figure>
+</body>
+</html>
